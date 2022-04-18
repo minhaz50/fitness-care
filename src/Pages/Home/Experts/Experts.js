@@ -8,10 +8,10 @@ import expert4 from "../../../images/Experts/Expert4.jpg";
 import Expert from "../Expert/Expert";
 
 const experts = [
-  { id: 101, name: "WilliamSon", img: expert1 },
-  { id: 102, name: "Jack Brain", img: expert2 },
-  { id: 103, name: "Nehal Pattu", img: expert3 },
-  { id: 104, name: "Sana Burg", img: expert4 },
+  { id: 101, name: "WilliamSon", address: "Dhaka", img: expert1 },
+  { id: 102, name: "Jack Brain", address: "Khulna", img: expert2 },
+  { id: 103, name: "Nehal Pattu", address: "Dhaka", img: expert3 },
+  { id: 104, name: "Sana Burg", address: "Mymensingh", img: expert4 },
 ];
 
 const Experts = () => {

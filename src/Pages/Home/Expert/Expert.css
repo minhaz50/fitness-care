@@ -1,8 +1,17 @@
 .expert-container img {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
+  margin-left: 15rem;
 }
 .details-title {
   margin: 30px 0;
   margin-left: 6rem;
+  margin-left: 27rem;
+}
+.address-details {
+  margin: 30px 0;
+  margin-left: 6rem;
+  color: white;
+  margin-left: 27rem;
+  margin-bottom: 5rem;
 }
