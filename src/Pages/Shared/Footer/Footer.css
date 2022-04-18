@@ -1,0 +1,24 @@
+.container-details {
+  background-color: black;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  color: white;
+  margin-top: 50px;
+}
+.footer-details {
+  margin: 7rem 14rem;
+}
+.copyright {
+  color: white;
+  margin-left: 35rem;
+}
+@media only screen and (max-width: 576px) {
+  .footer-container {
+    width: 100%;
+  }
+}

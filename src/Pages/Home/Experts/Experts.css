@@ -1,0 +1,16 @@
+.experts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 50px;
+  grid-column-gap: 10px;
+}
+.experts-title {
+  margin-top: 15rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .experts-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

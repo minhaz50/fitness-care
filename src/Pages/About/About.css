@@ -1,0 +1,12 @@
+.about-container {
+  display: flex;
+  background-color: black;
+  color: white;
+  margin-top: 3rem;
+}
+.about-details {
+  margin-top: 5rem;
+  margin-left: 30px;
+  letter-spacing: 2px;
+  font-family: "My Soul", cursive;
+}
