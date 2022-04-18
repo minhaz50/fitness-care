@@ -4,7 +4,7 @@
 .service-container img {
   width: 300px;
   height: 300px;
-  margin: 30px;
+  margin: 20px;
 }
 .service-details {
   margin-left: 40px;
@@ -14,6 +14,7 @@
 }
 .details-title {
   color: white;
+  margin-left: 0rem;
 }
 .enroll-btn {
   background-color: #5da3fa;
