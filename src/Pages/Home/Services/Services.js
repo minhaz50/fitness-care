@@ -1,15 +1,9 @@
-import React, { useEffect, useState, useTransition } from "react";
+import useServices from "../../../hooks/useServices";
 import Service from "../Service/Service";
 import "./Services.css";
 
 const Services = () => {
-  const [services, setServices] = useState([]);
-
-  useEffect(() => {
-    fetch("services.json")
-      .then((res) => res.json())
-      .then((data) => setServices(data));
-  }, []);
+  const [services, setServices] = useServices([]);
 
   return (
     <div className="container">

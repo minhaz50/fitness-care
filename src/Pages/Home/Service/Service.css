@@ -16,9 +16,19 @@
   color: white;
 }
 .enroll-btn {
-  border: none;
-  color: rgb(226, 226, 231);
-  background-color: rgb(4, 67, 134);
+  background-color: #5da3fa;
+  margin-top: 15px;
+  padding: 3px 15px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.enroll-btn:hover {
+  background-color: #ff9f4a;
+  cursor: grab;
+  letter-spacing: 1px;
+  transition: 0.7s;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 576px) {
   .service-container {

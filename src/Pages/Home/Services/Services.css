@@ -14,7 +14,22 @@
   margin-bottom: 3rem;
   font-family: "My Soul", cursive;
 }
-
+.review-btn {
+  background-color: #5da3fa;
+  padding: 10px;
+  border: 0;
+  margin-top: 30px;
+  margin-left: 30rem;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.review-btn:hover {
+  background-color: #ff9f4a;
+  cursor: grab;
+  letter-spacing: 1px;
+  transition: 0.7s;
+  text-transform: uppercase;
+}
 @media only screen and (max-width: 576px) {
   .services-container {
     grid-template-columns: repeat(1, 1fr);

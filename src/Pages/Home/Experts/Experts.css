@@ -5,7 +5,12 @@
   grid-column-gap: 10px;
 }
 .experts-title {
-  margin-top: 15rem;
+  margin-top: 5rem;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: 26rem;
+  margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 576px) {

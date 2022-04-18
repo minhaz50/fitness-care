@@ -17,7 +17,10 @@ const Banner = () => {
         <img className="d-block w-100" src={Banner1} alt="First slide" />
         <Carousel.Caption>
           <h3>Power Lifitng</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>
+            Lifting refers to the act of moving something from a position on a
+            lower surface to a higher one.
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -25,16 +28,20 @@ const Banner = () => {
 
         <Carousel.Caption>
           <h3>Cardio</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>
+            Cardio is defined as any type of exercise that gets your heart rate
+            up
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={Banner3} alt="Third slide" />
 
         <Carousel.Caption>
-          <h3>Cardio</h3>
+          <h3>Press and Back</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Your back muscles are the main structural support for your trunk
+            (torso).
           </p>
         </Carousel.Caption>
       </Carousel.Item>
