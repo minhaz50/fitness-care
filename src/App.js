@@ -6,6 +6,7 @@ import Experts from "./Pages/Home/Experts/Experts";
 import Home from "./Pages/Home/Home/Home";
 import Services from "./Pages/Home/Services/Services";
 import Login from "./Pages/Login/Login/Login";
+import SingUp from "./Pages/Login/SingUp/SingUp";
 import ServiceDetails from "./Pages/ServiceDetails/ServiceDetails";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Header from "./Pages/Shared/Header/Header";
@@ -24,6 +25,7 @@ function App() {
         <Route path="/services/:serviesId" element={<ServiceDetails />}></Route>
         <Route path="/experts" element={<Experts></Experts>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/singup" element={<SingUp />}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
