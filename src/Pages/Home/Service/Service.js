@@ -10,6 +10,7 @@ const Service = ({ service }) => {
   };
   return (
     <div className="service-container">
+      {/* image url */}
       <img src={img} alt="" />
       <div className="service-details">
         <h3 className="details-title">{name}</h3>
